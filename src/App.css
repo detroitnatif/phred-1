@@ -10,20 +10,20 @@ body {
 }
 
 .container {
-  max-width: 2000px;
+  max-width: 3000px;
   max-height: 3000px;
   margin: 30px auto;
   overflow: auto;
   min-height: 800px;
-  border: 1px solid steelblue;
+  border: 1px solid #3EB489;
   padding: 30px;
   border-radius: 5px;
-  background-color: antiquewhite;
+  background-color: #FAEBD7;
 }
 
 .header {
   display: flex;
-  color: green;
+  color: #3EB489;
   font-size: 1cm;
   justify-content: space-between;
   align-items: center;
@@ -32,8 +32,8 @@ body {
 
 .btn {
   display: inline-block;
-  background: rgb(3, 213, 97);
-  color: #fff;
+  background: #3EB489;
+  color: #FFFFFF;
   border: none;
   padding: 40px 40px;
   margin: 20px;
@@ -55,17 +55,19 @@ body {
 .btn-block {
   display: block;
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .task {
-  background: #f4f4f4;
+  background: #FFFFFF;
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
 }
 
 .task.reminder {
-  border-left: 5px solid green;
+  border-left: 5px solid #3EB489;
 }
 
 .task h3 {
