@@ -1,14 +1,14 @@
 import { useState } from 'react'
 
 const AddTask = ({ onAdd }) => {
-    const [text, setText] = useState('')
+    const [text, setName] = useState('')
     const [day, setDay] = useState('')
     const [PH, setPH] = useState('')
     const [Soil, setSoil] = useState('')
     const [Nitrate, setNitrate] = useState('')
     const [Turbidity, setTurbidity] = useState('')
     const [Image, setImage] = useState('')
-    const [reminder, setReminder] = useState(false)
+    const [online, setReminder] = useState(false)
 
     const onSubmit = (e) => {
         e.preventDefault()
@@ -18,9 +18,9 @@ const AddTask = ({ onAdd }) => {
             return
         }
 
-        onAdd({ text, day, PH, Soil, Nitrate, Turbidity, Image, reminder })
+        onAdd({ text, day, PH, Soil, Nitrate, Turbidity, Image, online })
 
-        setText('')
+        setDay('')
         setDay('')
         setPH('')
         setSoil('')
@@ -37,9 +37,9 @@ const AddTask = ({ onAdd }) => {
                 <label>Task</label>
                 <input
                     type='text'
-                    placeholder='Add Task'
+                    placeholder='Add Name'
                     value={text}
-                    onChange={(e) => setText(e.target.value)}
+                    onChange={(e) => setName(e.target.value)}
                 />
             </div>
             <div className='form-control'>
@@ -88,11 +88,11 @@ const AddTask = ({ onAdd }) => {
                 />
             </div>
             <div className='form-control form-control-check'>
-                <label>Set Reminder</label>
+                <label>Online?</label>
                 <input
                     type='checkbox'
-                    checked={reminder}
-                    value={reminder}
+                    checked={online}
+                    value={online}
                     onChange={(e) => setReminder(e.currentTarget.checked)}
                 />
             </div>

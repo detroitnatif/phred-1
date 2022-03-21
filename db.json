@@ -1,0 +1,78 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "tylers first kit",
+      "day": "march 21 2022",
+      "PH": "5",
+      "Nitrates": "6",
+      "Turbidity": "5"
+    },
+    {
+      "text": "tyler",
+      "day": "2003-02-22",
+      "PH": "5",
+      "Soil": "",
+      "Nitrate": "",
+      "Turbidity": "",
+      "Image": "",
+      "reminder": false,
+      "id": 2
+    },
+    {
+      "text": "karim ",
+      "day": "2003-02-22",
+      "PH": "4",
+      "Soil": "5",
+      "Nitrate": "5",
+      "Turbidity": "",
+      "Image": "",
+      "reminder": false,
+      "id": 3
+    },
+    {
+      "text": "josh",
+      "day": "2022-03-21",
+      "PH": "4",
+      "Soil": "3",
+      "Nitrate": "5",
+      "Turbidity": "",
+      "Image": "",
+      "reminder": false,
+      "id": 4
+    },
+    {
+      "text": "adi",
+      "day": "2022-02-22",
+      "PH": "3",
+      "Soil": "4",
+      "Nitrate": "4",
+      "Turbidity": "",
+      "Image": "",
+      "online": false,
+      "id": 5
+    },
+    {
+      "text": "tyler",
+      "day": "2004-02-22",
+      "PH": "4",
+      "Soil": "4",
+      "Nitrate": "4",
+      "Turbidity": "",
+      "Image": "",
+      "online": false,
+      "id": 6
+    },
+    {
+      "text": "dr rizk",
+      "day": "2222-03-21",
+      "PH": "3",
+      "Soil": "3",
+      "Nitrate": "4",
+      "Turbidity": "",
+      "Image": "",
+      "online": false,
+      "id": 7
+    }
+  ]
+}
