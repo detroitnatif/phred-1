@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 import Tasks from './components/Tasks'
 import AddTask from './components/AddTask'
 import About from './components/About'
-
+// useState function is used for HTTP requests
 const App = () => {
   const [showAddTask, setShowAddTask] = useState(false)
   const [tasks, setTasks] = useState([])
@@ -24,7 +24,7 @@ const App = () => {
     const res = await fetch('http://localhost:5000/tasks')
     const data = await res.json()
 
-    return data["tasks"]["name"]
+    return data
   }
 
   // Fetch Task
